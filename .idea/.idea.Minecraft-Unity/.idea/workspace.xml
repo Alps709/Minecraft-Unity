@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5012afa6-8237-411e-a284-988349b554c3" name="Default Changelist" comment="" />
+    <list default="true" id="5012afa6-8237-411e-a284-988349b554c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cube.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cube.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WorldController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WorldController.cs.meta" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,19 +16,17 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/WorldController.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CreateQuads.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+            <state relative-caret-position="225">
+              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
               <folding>
-                <marker date="1553303769244" expanded="false" signature="6:78" ph="..." />
-                <marker date="1553303769244" expanded="true" signature="124:1465" ph="{...}" />
-                <marker date="1553303769244" expanded="true" signature="223:1249" ph="{...}" />
-                <marker date="1553303769244" expanded="true" signature="365:1243" ph="{...}" />
-                <marker date="1553303769244" expanded="true" signature="438:1233" ph="{...}" />
-                <marker date="1553303769244" expanded="true" signature="519:1184" ph="{...}" />
-                <marker date="1553303769244" expanded="true" signature="1334:1384" ph="{...}" />
-                <marker date="1553303769244" expanded="true" signature="1442:1463" ph="{...}" />
+                <marker date="1553313252872" expanded="false" signature="6:78" ph="..." />
+                <marker date="1553313252872" expanded="true" signature="121:2005" ph="{...}" />
+                <marker date="1553313252872" expanded="true" signature="175:1872" ph="{...}" />
+                <marker date="1553313252872" expanded="true" signature="1211:1309" ph="{...}" />
+                <marker date="1553313252872" expanded="true" signature="1921:1941" ph="{...}" />
+                <marker date="1553313252872" expanded="true" signature="1996:2003" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -35,12 +38,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WorldController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CreateQuads.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/WorldController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CreateQuads.cs" />
       </list>
     </option>
   </component>
@@ -109,12 +113,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553302372918</updated>
-      <workItem from="1553302379066" duration="1402000" />
+      <workItem from="1553302379066" duration="2289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1402000" />
+    <option name="totallyTimeSpent" value="2289000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -127,7 +131,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
@@ -177,17 +180,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WorldController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        <state relative-caret-position="420">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CreateQuads.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding>
-            <marker date="1553303769244" expanded="false" signature="6:78" ph="..." />
-            <marker date="1553303769244" expanded="true" signature="124:1465" ph="{...}" />
-            <marker date="1553303769244" expanded="true" signature="223:1249" ph="{...}" />
-            <marker date="1553303769244" expanded="true" signature="365:1243" ph="{...}" />
-            <marker date="1553303769244" expanded="true" signature="438:1233" ph="{...}" />
-            <marker date="1553303769244" expanded="true" signature="519:1184" ph="{...}" />
-            <marker date="1553303769244" expanded="true" signature="1334:1384" ph="{...}" />
-            <marker date="1553303769244" expanded="true" signature="1442:1463" ph="{...}" />
+            <marker date="1553313252872" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553313252872" expanded="true" signature="121:2005" ph="{...}" />
+            <marker date="1553313252872" expanded="true" signature="175:1872" ph="{...}" />
+            <marker date="1553313252872" expanded="true" signature="1211:1309" ph="{...}" />
+            <marker date="1553313252872" expanded="true" signature="1921:1941" ph="{...}" />
+            <marker date="1553313252872" expanded="true" signature="1996:2003" ph="{...}" />
           </folding>
         </state>
       </provider>
