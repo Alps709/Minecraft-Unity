@@ -16,11 +16,11 @@ public class CreateQuads : MonoBehaviour {
 		BACK
 	};
 	
-	void CreateQuad()
+	void CreateQuad(CubeSide side)
 	{
 		//Create the new mesh object to be used for our quad
 		Mesh mesh = new Mesh();
-	    mesh.name = "ScriptedMesh";
+	    mesh.name = "ScriptedMesh" + side.ToString();
 
 	    //Create the arrays for all the information required for the quad
 		Vector3[] vertices = new Vector3[4];
@@ -34,7 +34,7 @@ public class CreateQuads : MonoBehaviour {
 		Vector2 uv01 = new Vector2( 0f, 1f );
 		Vector2 uv11 = new Vector2( 1f, 1f );
 
-		//Create all needed vertices for the quad
+		//Create all possible vertices for the quad (it will make 8 vertices (one for each corner of a cube), that multiple quads will use, to combine and make a cube)
 		Vector3 p0 = new Vector3( -0.5f,  -0.5f,  0.5f );
 		Vector3 p1 = new Vector3(  0.5f,  -0.5f,  0.5f );
 		Vector3 p2 = new Vector3(  0.5f,  -0.5f, -0.5f );
@@ -44,17 +44,52 @@ public class CreateQuads : MonoBehaviour {
 		Vector3 p6 = new Vector3(  0.5f,   0.5f, -0.5f );
 		Vector3 p7 = new Vector3( -0.5f,   0.5f, -0.5f );
 
-		
-		//Put the created values in the arrays
-		vertices = new Vector3[] {p4, p5, p1, p0};
-		normals = new Vector3[] {Vector3.forward, 
-								 Vector3.forward, 
-								 Vector3.forward, 
-								 Vector3.forward};
-		
-		//Put the created values in the arrays
-		uvs = new Vector2[] {uv11, uv01, uv00, uv10};
-		triangles = new int[] {3, 1, 0, 3, 2, 1};
+		//Switch that chooses which quad it needs to make
+		switch(side)
+        		{
+        			case CubeSide.BOTTOM:
+        				vertices = new Vector3[] {p0, p1, p2, p3};
+        				normals = new Vector3[] {Vector3.down, Vector3.down, 
+        											Vector3.down, Vector3.down};
+        				uvs = new Vector2[] {uv11, uv01, uv00, uv10};
+        				triangles = new int[] { 3, 1, 0, 3, 2, 1};
+        			break;
+        			case CubeSide.TOP:
+        				vertices = new Vector3[] {p7, p6, p5, p4};
+        				normals = new Vector3[] {Vector3.up, Vector3.up, 
+        											Vector3.up, Vector3.up};
+        				uvs = new Vector2[] {uv11, uv01, uv00, uv10};
+        				triangles = new int[] {3, 1, 0, 3, 2, 1};
+        			break;
+        			case CubeSide.LEFT:
+        				vertices = new Vector3[] {p7, p4, p0, p3};
+        				normals = new Vector3[] {Vector3.left, Vector3.left, 
+        											Vector3.left, Vector3.left};
+        				uvs = new Vector2[] {uv11, uv01, uv00, uv10};
+        				triangles = new int[] {3, 1, 0, 3, 2, 1};
+        			break;
+        			case CubeSide.RIGHT:
+        				vertices = new Vector3[] {p5, p6, p2, p1};
+        				normals = new Vector3[] {Vector3.right, Vector3.right, 
+        											Vector3.right, Vector3.right};
+        				uvs = new Vector2[] {uv11, uv01, uv00, uv10};
+        				triangles = new int[] {3, 1, 0, 3, 2, 1};
+        			break;
+        			case CubeSide.FRONT:
+        				vertices = new Vector3[] {p4, p5, p1, p0};
+        				normals = new Vector3[] {Vector3.forward, Vector3.forward, 
+        											Vector3.forward, Vector3.forward};
+        				uvs = new Vector2[] {uv11, uv01, uv00, uv10};
+        				triangles = new int[] {3, 1, 0, 3, 2, 1};
+        			break;
+        			case CubeSide.BACK:
+        				vertices = new Vector3[] {p6, p7, p3, p2};
+        				normals = new Vector3[] {Vector3.back, Vector3.back, 
+        											Vector3.back, Vector3.back};
+        				uvs = new Vector2[] {uv11, uv01, uv00, uv10};
+        				triangles = new int[] {3, 1, 0, 3, 2, 1};
+        			break;
+        		}
 
 		//Set the meshes values to the ones we just created
 		mesh.vertices = vertices;

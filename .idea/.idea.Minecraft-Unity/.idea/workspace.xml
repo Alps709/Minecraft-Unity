@@ -15,23 +15,34 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CreateQuads.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+            <state relative-caret-position="623">
+              <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
               <folding>
-                <marker date="1553550518159" expanded="false" signature="6:78" ph="..." />
-                <marker date="1553550518159" expanded="true" signature="121:2623" ph="{...}" />
-                <marker date="1553550518159" expanded="true" signature="170:226" ph="{...}" />
-                <marker date="1553550518159" expanded="true" signature="248:2490" ph="{...}" />
-                <marker date="1553550518159" expanded="true" signature="1361:1459" ph="{...}" />
-                <marker date="1553550518159" expanded="true" signature="1759:1900" ph="/* Recalculates the bounding box that encompasses the mesh, ... */" />
-                <marker date="1553550518159" expanded="true" signature="2539:2559" ph="{...}" />
-                <marker date="1553550518159" expanded="true" signature="2614:2621" ph="{...}" />
+                <marker date="1553641620115" expanded="false" signature="6:78" ph="..." />
+                <marker date="1553641620115" expanded="true" signature="121:4504" ph="{...}" />
+                <marker date="1553641620115" expanded="true" signature="170:226" ph="{...}" />
+                <marker date="1553641620115" expanded="true" signature="261:4371" ph="{...}" />
+                <marker date="1553641620115" expanded="true" signature="1461:3477" ph="{...}" />
+                <marker date="1553641620115" expanded="true" signature="1598:1674" ph="{...}" />
+                <marker date="1553641620115" expanded="true" signature="1928:1996" ph="{...}" />
+                <marker date="1553641620115" expanded="true" signature="2250:2326" ph="{...}" />
+                <marker date="1553641620115" expanded="true" signature="2581:2661" ph="{...}" />
+                <marker date="1553641620115" expanded="true" signature="2916:3004" ph="{...}" />
+                <marker date="1553641620115" expanded="true" signature="3258:3334" ph="{...}" />
+                <marker date="1553641620115" expanded="true" signature="3640:3781" ph="/* Recalculates the bounding box that encompasses the mesh, ... */" />
+                <marker date="1553641620115" expanded="true" signature="4420:4440" ph="{...}" />
+                <marker date="1553641620115" expanded="true" signature="4495:4502" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Cubeside</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,12 +69,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
       </pane>
       <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
@@ -114,11 +125,12 @@
       <updated>1553302372918</updated>
       <workItem from="1553302379066" duration="2289000" />
       <workItem from="1553545280271" duration="1725000" />
+      <workItem from="1553641310836" duration="923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4014000" />
+    <option name="totallyTimeSpent" value="4937000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -132,7 +144,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16204691" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16364606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -181,17 +193,23 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WorldController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CreateQuads.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        <state relative-caret-position="623">
+          <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
           <folding>
-            <marker date="1553550518159" expanded="false" signature="6:78" ph="..." />
-            <marker date="1553550518159" expanded="true" signature="121:2623" ph="{...}" />
-            <marker date="1553550518159" expanded="true" signature="170:226" ph="{...}" />
-            <marker date="1553550518159" expanded="true" signature="248:2490" ph="{...}" />
-            <marker date="1553550518159" expanded="true" signature="1361:1459" ph="{...}" />
-            <marker date="1553550518159" expanded="true" signature="1759:1900" ph="/* Recalculates the bounding box that encompasses the mesh, ... */" />
-            <marker date="1553550518159" expanded="true" signature="2539:2559" ph="{...}" />
-            <marker date="1553550518159" expanded="true" signature="2614:2621" ph="{...}" />
+            <marker date="1553641620115" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553641620115" expanded="true" signature="121:4504" ph="{...}" />
+            <marker date="1553641620115" expanded="true" signature="170:226" ph="{...}" />
+            <marker date="1553641620115" expanded="true" signature="261:4371" ph="{...}" />
+            <marker date="1553641620115" expanded="true" signature="1461:3477" ph="{...}" />
+            <marker date="1553641620115" expanded="true" signature="1598:1674" ph="{...}" />
+            <marker date="1553641620115" expanded="true" signature="1928:1996" ph="{...}" />
+            <marker date="1553641620115" expanded="true" signature="2250:2326" ph="{...}" />
+            <marker date="1553641620115" expanded="true" signature="2581:2661" ph="{...}" />
+            <marker date="1553641620115" expanded="true" signature="2916:3004" ph="{...}" />
+            <marker date="1553641620115" expanded="true" signature="3258:3334" ph="{...}" />
+            <marker date="1553641620115" expanded="true" signature="3640:3781" ph="/* Recalculates the bounding box that encompasses the mesh, ... */" />
+            <marker date="1553641620115" expanded="true" signature="4420:4440" ph="{...}" />
+            <marker date="1553641620115" expanded="true" signature="4495:4502" ph="{...}" />
           </folding>
         </state>
       </provider>
