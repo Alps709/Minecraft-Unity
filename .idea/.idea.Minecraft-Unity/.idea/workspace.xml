@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5012afa6-8237-411e-a284-988349b554c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/dirt.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/dirt.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CreateQuads.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CreateQuads.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,23 +16,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CreateQuads.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
+            <state relative-caret-position="293">
+              <caret line="150" column="50" lean-forward="true" selection-start-line="150" selection-start-column="50" selection-end-line="150" selection-end-column="50" />
               <folding>
-                <marker date="1553641620115" expanded="false" signature="6:78" ph="..." />
-                <marker date="1553641620115" expanded="true" signature="121:4504" ph="{...}" />
-                <marker date="1553641620115" expanded="true" signature="170:226" ph="{...}" />
-                <marker date="1553641620115" expanded="true" signature="261:4371" ph="{...}" />
-                <marker date="1553641620115" expanded="true" signature="1461:3477" ph="{...}" />
-                <marker date="1553641620115" expanded="true" signature="1598:1674" ph="{...}" />
-                <marker date="1553641620115" expanded="true" signature="1928:1996" ph="{...}" />
-                <marker date="1553641620115" expanded="true" signature="2250:2326" ph="{...}" />
-                <marker date="1553641620115" expanded="true" signature="2581:2661" ph="{...}" />
-                <marker date="1553641620115" expanded="true" signature="2916:3004" ph="{...}" />
-                <marker date="1553641620115" expanded="true" signature="3258:3334" ph="{...}" />
-                <marker date="1553641620115" expanded="true" signature="3640:3781" ph="/* Recalculates the bounding box that encompasses the mesh, ... */" />
-                <marker date="1553641620115" expanded="true" signature="4420:4440" ph="{...}" />
-                <marker date="1553641620115" expanded="true" signature="4495:4502" ph="{...}" />
+                <marker date="1554764951730" expanded="false" signature="6:78" ph="..." />
+                <marker date="1554764951730" expanded="true" signature="121:6049" ph="{...}" />
+                <marker date="1554764951730" expanded="true" signature="170:226" ph="{...}" />
+                <marker date="1554764951730" expanded="true" signature="261:4494" ph="{...}" />
+                <marker date="1554764951730" expanded="true" signature="1461:3600" ph="{...}" />
+                <marker date="1554764951730" expanded="true" signature="1595:1663" ph="{...}" />
+                <marker date="1554764951730" expanded="true" signature="1958:2037" ph="{...}" />
+                <marker date="1554764951730" expanded="true" signature="2337:2413" ph="{...}" />
+                <marker date="1554764951730" expanded="true" signature="2680:2760" ph="{...}" />
+                <marker date="1554764951730" expanded="true" signature="3027:3115" ph="{...}" />
+                <marker date="1554764951730" expanded="true" signature="3381:3457" ph="{...}" />
+                <marker date="1554764951730" expanded="true" signature="3763:3904" ph="/* Recalculates the bounding box that encompasses the mesh, ... */" />
+                <marker date="1554764951730" expanded="true" signature="4516:5690" ph="{...}" />
+                <marker date="1554764951730" expanded="true" signature="4522:4638" ph="/* Combine all children meshes ... */" />
+                <marker date="1554764951730" expanded="true" signature="4835:5083" ph="{...}" />
+                <marker date="1554764951730" expanded="true" signature="5650:5687" ph="{...}" />
+                <marker date="1554764951730" expanded="true" signature="5710:5896" ph="{...}" />
+                <marker date="1554764951730" expanded="true" signature="5945:5985" ph="{...}" />
+                <marker date="1554764951730" expanded="true" signature="6040:6047" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -72,12 +78,12 @@
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -126,11 +132,12 @@
       <workItem from="1553302379066" duration="2289000" />
       <workItem from="1553545280271" duration="1725000" />
       <workItem from="1553641310836" duration="923000" />
+      <workItem from="1554762625167" duration="2742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4937000" />
+    <option name="totallyTimeSpent" value="7679000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -144,7 +151,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16364606" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1652452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -193,23 +200,28 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WorldController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CreateQuads.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
+        <state relative-caret-position="293">
+          <caret line="150" column="50" lean-forward="true" selection-start-line="150" selection-start-column="50" selection-end-line="150" selection-end-column="50" />
           <folding>
-            <marker date="1553641620115" expanded="false" signature="6:78" ph="..." />
-            <marker date="1553641620115" expanded="true" signature="121:4504" ph="{...}" />
-            <marker date="1553641620115" expanded="true" signature="170:226" ph="{...}" />
-            <marker date="1553641620115" expanded="true" signature="261:4371" ph="{...}" />
-            <marker date="1553641620115" expanded="true" signature="1461:3477" ph="{...}" />
-            <marker date="1553641620115" expanded="true" signature="1598:1674" ph="{...}" />
-            <marker date="1553641620115" expanded="true" signature="1928:1996" ph="{...}" />
-            <marker date="1553641620115" expanded="true" signature="2250:2326" ph="{...}" />
-            <marker date="1553641620115" expanded="true" signature="2581:2661" ph="{...}" />
-            <marker date="1553641620115" expanded="true" signature="2916:3004" ph="{...}" />
-            <marker date="1553641620115" expanded="true" signature="3258:3334" ph="{...}" />
-            <marker date="1553641620115" expanded="true" signature="3640:3781" ph="/* Recalculates the bounding box that encompasses the mesh, ... */" />
-            <marker date="1553641620115" expanded="true" signature="4420:4440" ph="{...}" />
-            <marker date="1553641620115" expanded="true" signature="4495:4502" ph="{...}" />
+            <marker date="1554764951730" expanded="false" signature="6:78" ph="..." />
+            <marker date="1554764951730" expanded="true" signature="121:6049" ph="{...}" />
+            <marker date="1554764951730" expanded="true" signature="170:226" ph="{...}" />
+            <marker date="1554764951730" expanded="true" signature="261:4494" ph="{...}" />
+            <marker date="1554764951730" expanded="true" signature="1461:3600" ph="{...}" />
+            <marker date="1554764951730" expanded="true" signature="1595:1663" ph="{...}" />
+            <marker date="1554764951730" expanded="true" signature="1958:2037" ph="{...}" />
+            <marker date="1554764951730" expanded="true" signature="2337:2413" ph="{...}" />
+            <marker date="1554764951730" expanded="true" signature="2680:2760" ph="{...}" />
+            <marker date="1554764951730" expanded="true" signature="3027:3115" ph="{...}" />
+            <marker date="1554764951730" expanded="true" signature="3381:3457" ph="{...}" />
+            <marker date="1554764951730" expanded="true" signature="3763:3904" ph="/* Recalculates the bounding box that encompasses the mesh, ... */" />
+            <marker date="1554764951730" expanded="true" signature="4516:5690" ph="{...}" />
+            <marker date="1554764951730" expanded="true" signature="4522:4638" ph="/* Combine all children meshes ... */" />
+            <marker date="1554764951730" expanded="true" signature="4835:5083" ph="{...}" />
+            <marker date="1554764951730" expanded="true" signature="5650:5687" ph="{...}" />
+            <marker date="1554764951730" expanded="true" signature="5710:5896" ph="{...}" />
+            <marker date="1554764951730" expanded="true" signature="5945:5985" ph="{...}" />
+            <marker date="1554764951730" expanded="true" signature="6040:6047" ph="{...}" />
           </folding>
         </state>
       </provider>
