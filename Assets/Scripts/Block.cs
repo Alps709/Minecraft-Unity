@@ -2,21 +2,32 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CreateQuads : MonoBehaviour {
+public class Block
+{
+    enum CubeSide
+    {
+        TOP,
+        BOTTOM,
+        LEFT,
+        RIGHT,
+        FRONT,
+        BACK
+    };
 
-	public Material cubeMaterial;
+    public bool isSolid;
+    private GameObject parent;
+    private Vector3 position;
+    private Material cubeMaterial;
 
-	enum CubeSide
-	{
-		TOP,
-		BOTTOM,
-		LEFT,
-		RIGHT,
-		FRONT,
-		BACK
-	};
-	
-	void CreateQuad(CubeSide side)
+    public Block(Vector3 pos, GameObject parent, Material material)
+    {
+	    isSolid = true;
+        position = pos;
+        this.parent = parent;
+        cubeMaterial = material;
+    }
+    
+    void CreateQuad(CubeSide side)
 	{
 		//Create the new mesh object to be used for our quad
 		Mesh mesh = new Mesh();
@@ -107,8 +118,9 @@ public class CreateQuads : MonoBehaviour {
 		mesh.RecalculateBounds();
 		
 		//Create a new quad object and parent that to our quad
-		GameObject quad = new GameObject("quad");
-	    quad.transform.parent = this.gameObject.transform;
+		GameObject quad = new GameObject("Quad");
+		quad.transform.position = position;
+	    quad.transform.parent = parent.transform;
 	    
 	    //Add new meshfilter to our created quad and sets its mesh to the one we just created
      	MeshFilter meshFilter = (MeshFilter) quad.AddComponent(typeof(MeshFilter));
@@ -119,61 +131,53 @@ public class CreateQuads : MonoBehaviour {
 		renderer.material = cubeMaterial;
 	}
 
-	void CombineQuads()
-	{
-		///Combine all children meshes
-		
-		//Create arrays for the mesh filters and mesh instances that need to be combined
-		MeshFilter[] meshFilters = GetComponentsInChildren<MeshFilter>();
-		CombineInstance[] meshesToCombine = new CombineInstance[meshFilters.Length];
-		
-		for (int i = 0; i < meshFilters.Length; i++)
-		{
-			//Set the array to have the mesh values
-			meshesToCombine[i].mesh = meshFilters[i].sharedMesh;
-			
-			//Convert local vertices co-ords to worldspace co-ords
-			meshesToCombine[i].transform = meshFilters[i].transform.localToWorldMatrix;
-		}
-		
-		//Create new mesh on the parent object
-		MeshFilter mf = (MeshFilter) this.gameObject.AddComponent(typeof(MeshFilter));
-		mf.mesh = new Mesh();
-		
-		//Add combined meshes of the children to the parent's mesh
-		mf.mesh.CombineMeshes(meshesToCombine);
-		
-		//Create renderer for the parent object (which is now all the combined quad meshes)
-		MeshRenderer renderer = this.gameObject.AddComponent(typeof(MeshRenderer)) as MeshRenderer;
-		renderer.material = cubeMaterial;
-		
-		//delete all the original uncombined quads
-		foreach (Transform quad in this.transform)
-		{
-			Destroy(quad.gameObject);
-		}
-	}
-
-	void CreateCube()
-	{
-		CreateQuad(CubeSide.TOP);
-		CreateQuad(CubeSide.BOTTOM);
-		CreateQuad(CubeSide.LEFT);
-		CreateQuad(CubeSide.RIGHT);
-		CreateQuad(CubeSide.FRONT);
-		CreateQuad(CubeSide.BACK);
-		
-	}
-
-	// Use this for initialization
-	void Start () 
-	{
-		CreateCube();
-		CombineQuads();
-	}
+    public bool HasSolidNeighbour(int neighbourX, int neighbourY, int neighbourZ)
+    {
+	    Block[,,] chunk = parent.GetComponent<Chunk>().chunkData;
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	    //Checks whether it can find a neighbour
+	    try
+	    {
+		    //Found a neighbour
+		    return chunk[neighbourX, neighbourY, neighbourZ].isSolid;
+	    }
+	    catch(System.IndexOutOfRangeException ex){}
+
+	    //Couldn't find a neighbour
+	    return false;
+    }
+
+    public void Draw()
+    {
+	    //Do all checks for non-solid neighbours and draw the quads that have them
+	    if (!HasSolidNeighbour((int)position.x, (int)position.y, (int)position.z + 1))
+	    {
+		    CreateQuad(CubeSide.FRONT);   
+	    }
+	    
+	    if (!HasSolidNeighbour((int)position.x, (int)position.y, (int)position.z - 1))
+	    {
+		    CreateQuad(CubeSide.BACK);   
+	    }
+	    
+	    if (!HasSolidNeighbour((int)position.x, (int)position.y + 1, (int)position.z))
+	    {
+		    CreateQuad(CubeSide.TOP);   
+	    }
+	    
+	    if (!HasSolidNeighbour((int)position.x, (int)position.y - 1, (int)position.z))
+	    {
+		    CreateQuad(CubeSide.BOTTOM);   
+	    }
+	    
+	    if (!HasSolidNeighbour((int)position.x - 1, (int)position.y, (int)position.z))
+	    {
+		    CreateQuad(CubeSide.LEFT);   
+	    }
+	    
+	    if (!HasSolidNeighbour((int)position.x + 1, (int)position.y, (int)position.z))
+	    {
+		    CreateQuad(CubeSide.RIGHT);   
+	    }
+    }
 }

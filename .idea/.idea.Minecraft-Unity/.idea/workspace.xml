@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5012afa6-8237-411e-a284-988349b554c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/dirt.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/dirt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CreateQuads.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CreateQuads.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Thumbs.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/dirt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/dirt.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CreateQuads.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CreateQuads.cs.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,31 +16,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CreateQuads.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Block.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="150" column="50" lean-forward="true" selection-start-line="150" selection-start-column="50" selection-end-line="150" selection-end-column="50" />
+            <state relative-caret-position="-982">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
               <folding>
-                <marker date="1554764951730" expanded="false" signature="6:78" ph="..." />
-                <marker date="1554764951730" expanded="true" signature="121:6049" ph="{...}" />
-                <marker date="1554764951730" expanded="true" signature="170:226" ph="{...}" />
-                <marker date="1554764951730" expanded="true" signature="261:4494" ph="{...}" />
-                <marker date="1554764951730" expanded="true" signature="1461:3600" ph="{...}" />
-                <marker date="1554764951730" expanded="true" signature="1595:1663" ph="{...}" />
-                <marker date="1554764951730" expanded="true" signature="1958:2037" ph="{...}" />
-                <marker date="1554764951730" expanded="true" signature="2337:2413" ph="{...}" />
-                <marker date="1554764951730" expanded="true" signature="2680:2760" ph="{...}" />
-                <marker date="1554764951730" expanded="true" signature="3027:3115" ph="{...}" />
-                <marker date="1554764951730" expanded="true" signature="3381:3457" ph="{...}" />
-                <marker date="1554764951730" expanded="true" signature="3763:3904" ph="/* Recalculates the bounding box that encompasses the mesh, ... */" />
-                <marker date="1554764951730" expanded="true" signature="4516:5690" ph="{...}" />
-                <marker date="1554764951730" expanded="true" signature="4522:4638" ph="/* Combine all children meshes ... */" />
-                <marker date="1554764951730" expanded="true" signature="4835:5083" ph="{...}" />
-                <marker date="1554764951730" expanded="true" signature="5650:5687" ph="{...}" />
-                <marker date="1554764951730" expanded="true" signature="5710:5896" ph="{...}" />
-                <marker date="1554764951730" expanded="true" signature="5945:5985" ph="{...}" />
-                <marker date="1554764951730" expanded="true" signature="6040:6047" ph="{...}" />
+                <marker date="1562990533245" expanded="false" signature="6:78" ph="..." />
+                <marker date="1562990533245" expanded="true" signature="98:6206" ph="{...}" />
+                <marker date="1562990533245" expanded="true" signature="118:216" ph="{...}" />
+                <marker date="1562990533245" expanded="true" signature="408:528" ph="{...}" />
+                <marker date="1562990533245" expanded="true" signature="568:4830" ph="{...}" />
+                <marker date="1562990533245" expanded="true" signature="1768:3907" ph="{...}" />
+                <marker date="1562990533245" expanded="true" signature="1902:1970" ph="{...}" />
+                <marker date="1562990533245" expanded="true" signature="2265:2344" ph="{...}" />
+                <marker date="1562990533245" expanded="true" signature="2644:2720" ph="{...}" />
+                <marker date="1562990533245" expanded="true" signature="2987:3067" ph="{...}" />
+                <marker date="1562990533245" expanded="true" signature="3334:3422" ph="{...}" />
+                <marker date="1562990533245" expanded="true" signature="3688:3764" ph="{...}" />
+                <marker date="1562990533245" expanded="true" signature="4070:4211" ph="/* Recalculates the bounding box that encompasses the mesh, ... */" />
+                <marker date="1562990533245" expanded="true" signature="4913:5251" ph="{...}" />
+                <marker date="1562990533245" expanded="true" signature="5039:5143" ph="{...}" />
+                <marker date="1562990533245" expanded="true" signature="5275:6204" ph="{...}" />
+                <marker date="1562990533245" expanded="true" signature="5445:5496" ph="{...}" />
+                <marker date="1562990533245" expanded="true" signature="5586:5636" ph="{...}" />
+                <marker date="1562990533245" expanded="true" signature="5726:5775" ph="{...}" />
+                <marker date="1562990533245" expanded="true" signature="5865:5917" ph="{...}" />
+                <marker date="1562990533245" expanded="true" signature="6007:6057" ph="{...}" />
+                <marker date="1562990533245" expanded="true" signature="6147:6198" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Chunk.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+              <folding>
+                <marker date="1562990785256" expanded="false" signature="6:78" ph="..." />
+                <marker date="1562990785256" expanded="true" signature="114:2966" ph="{...}" />
+                <marker date="1562990785256" expanded="true" signature="341:1358" ph="{...}" />
+                <marker date="1562990785256" expanded="true" signature="491:871" ph="{...}" />
+                <marker date="1562990785256" expanded="true" signature="560:861" ph="{...}" />
+                <marker date="1562990785256" expanded="true" signature="637:847" ph="{...}" />
+                <marker date="1562990785256" expanded="true" signature="961:1268" ph="{...}" />
+                <marker date="1562990785256" expanded="true" signature="1030:1258" ph="{...}" />
+                <marker date="1562990785256" expanded="true" signature="1107:1244" ph="{...}" />
+                <marker date="1562990785256" expanded="true" signature="1433:1517" ph="{...}" />
+                <marker date="1562990785256" expanded="true" signature="1575:1596" ph="{...}" />
+                <marker date="1562990785256" expanded="true" signature="1625:2964" ph="{...}" />
+                <marker date="1562990785256" expanded="true" signature="1640:1762" ph="/* Combine all children meshes ... */" />
+                <marker date="1562990785256" expanded="true" signature="1977:2273" ph="{...}" />
+                <marker date="1562990785256" expanded="true" signature="2900:2958" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -54,17 +86,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CreateQuads.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Chunk.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Block.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/WorldController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CreateQuads.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Block.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Chunk.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="259" />
     <option name="y" value="-18" />
     <option name="width" value="1400" />
@@ -75,15 +110,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,11 +168,12 @@
       <workItem from="1553545280271" duration="1725000" />
       <workItem from="1553641310836" duration="923000" />
       <workItem from="1554762625167" duration="2742000" />
+      <workItem from="1562984448270" duration="5605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7679000" />
+    <option name="totallyTimeSpent" value="13284000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -150,14 +186,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1652452" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16684435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -180,6 +217,36 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Unit Tests Coverage" order="6" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16684435" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -200,28 +267,62 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WorldController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CreateQuads.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="150" column="50" lean-forward="true" selection-start-line="150" selection-start-column="50" selection-end-line="150" selection-end-column="50" />
+        <state relative-caret-position="68">
+          <caret line="121" column="4" lean-forward="true" selection-start-line="121" selection-start-column="4" selection-end-line="154" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Block.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-982">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding>
-            <marker date="1554764951730" expanded="false" signature="6:78" ph="..." />
-            <marker date="1554764951730" expanded="true" signature="121:6049" ph="{...}" />
-            <marker date="1554764951730" expanded="true" signature="170:226" ph="{...}" />
-            <marker date="1554764951730" expanded="true" signature="261:4494" ph="{...}" />
-            <marker date="1554764951730" expanded="true" signature="1461:3600" ph="{...}" />
-            <marker date="1554764951730" expanded="true" signature="1595:1663" ph="{...}" />
-            <marker date="1554764951730" expanded="true" signature="1958:2037" ph="{...}" />
-            <marker date="1554764951730" expanded="true" signature="2337:2413" ph="{...}" />
-            <marker date="1554764951730" expanded="true" signature="2680:2760" ph="{...}" />
-            <marker date="1554764951730" expanded="true" signature="3027:3115" ph="{...}" />
-            <marker date="1554764951730" expanded="true" signature="3381:3457" ph="{...}" />
-            <marker date="1554764951730" expanded="true" signature="3763:3904" ph="/* Recalculates the bounding box that encompasses the mesh, ... */" />
-            <marker date="1554764951730" expanded="true" signature="4516:5690" ph="{...}" />
-            <marker date="1554764951730" expanded="true" signature="4522:4638" ph="/* Combine all children meshes ... */" />
-            <marker date="1554764951730" expanded="true" signature="4835:5083" ph="{...}" />
-            <marker date="1554764951730" expanded="true" signature="5650:5687" ph="{...}" />
-            <marker date="1554764951730" expanded="true" signature="5710:5896" ph="{...}" />
-            <marker date="1554764951730" expanded="true" signature="5945:5985" ph="{...}" />
-            <marker date="1554764951730" expanded="true" signature="6040:6047" ph="{...}" />
+            <marker date="1562990533245" expanded="false" signature="6:78" ph="..." />
+            <marker date="1562990533245" expanded="true" signature="98:6206" ph="{...}" />
+            <marker date="1562990533245" expanded="true" signature="118:216" ph="{...}" />
+            <marker date="1562990533245" expanded="true" signature="408:528" ph="{...}" />
+            <marker date="1562990533245" expanded="true" signature="568:4830" ph="{...}" />
+            <marker date="1562990533245" expanded="true" signature="1768:3907" ph="{...}" />
+            <marker date="1562990533245" expanded="true" signature="1902:1970" ph="{...}" />
+            <marker date="1562990533245" expanded="true" signature="2265:2344" ph="{...}" />
+            <marker date="1562990533245" expanded="true" signature="2644:2720" ph="{...}" />
+            <marker date="1562990533245" expanded="true" signature="2987:3067" ph="{...}" />
+            <marker date="1562990533245" expanded="true" signature="3334:3422" ph="{...}" />
+            <marker date="1562990533245" expanded="true" signature="3688:3764" ph="{...}" />
+            <marker date="1562990533245" expanded="true" signature="4070:4211" ph="/* Recalculates the bounding box that encompasses the mesh, ... */" />
+            <marker date="1562990533245" expanded="true" signature="4913:5251" ph="{...}" />
+            <marker date="1562990533245" expanded="true" signature="5039:5143" ph="{...}" />
+            <marker date="1562990533245" expanded="true" signature="5275:6204" ph="{...}" />
+            <marker date="1562990533245" expanded="true" signature="5445:5496" ph="{...}" />
+            <marker date="1562990533245" expanded="true" signature="5586:5636" ph="{...}" />
+            <marker date="1562990533245" expanded="true" signature="5726:5775" ph="{...}" />
+            <marker date="1562990533245" expanded="true" signature="5865:5917" ph="{...}" />
+            <marker date="1562990533245" expanded="true" signature="6007:6057" ph="{...}" />
+            <marker date="1562990533245" expanded="true" signature="6147:6198" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Chunk.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <marker date="1562990785256" expanded="false" signature="6:78" ph="..." />
+            <marker date="1562990785256" expanded="true" signature="114:2966" ph="{...}" />
+            <marker date="1562990785256" expanded="true" signature="341:1358" ph="{...}" />
+            <marker date="1562990785256" expanded="true" signature="491:871" ph="{...}" />
+            <marker date="1562990785256" expanded="true" signature="560:861" ph="{...}" />
+            <marker date="1562990785256" expanded="true" signature="637:847" ph="{...}" />
+            <marker date="1562990785256" expanded="true" signature="961:1268" ph="{...}" />
+            <marker date="1562990785256" expanded="true" signature="1030:1258" ph="{...}" />
+            <marker date="1562990785256" expanded="true" signature="1107:1244" ph="{...}" />
+            <marker date="1562990785256" expanded="true" signature="1433:1517" ph="{...}" />
+            <marker date="1562990785256" expanded="true" signature="1575:1596" ph="{...}" />
+            <marker date="1562990785256" expanded="true" signature="1625:2964" ph="{...}" />
+            <marker date="1562990785256" expanded="true" signature="1640:1762" ph="/* Combine all children meshes ... */" />
+            <marker date="1562990785256" expanded="true" signature="1977:2273" ph="{...}" />
+            <marker date="1562990785256" expanded="true" signature="2900:2958" ph="{...}" />
           </folding>
         </state>
       </provider>
